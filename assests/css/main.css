@@ -1,0 +1,175 @@
+
+
+header {
+    background-color: red;
+    max-height: 800px;
+}
+
+.top-bar {
+    max-height: 36px;
+    display: inline;
+}
+
+.top-bar .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar .container {
+    max-width: 1112px;
+    margin: 0 auto;
+}
+
+.language-selector .wrapper-languages {
+    max-height: 0;
+    overflow: hidden;
+    background-color: red;
+    transition: .8s;
+    max-width: 35px;
+    padding: 5px;
+    
+}
+
+.language-selector:hover .wrapper-languages {
+    max-height: 300px;
+    transition: .8s;
+    cursor: pointer;
+}
+
+.language-selector .wrapper-languages a {
+    color: white;
+    text-decoration: none;
+    font-family: "Merriweather Sans";
+}
+
+.top-bar .wrapper-text {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.top-bar .wrapper-text h6 {
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-family: "Merriweather Sans";
+}
+
+.wrapper-text img {
+    margin-right: 9px;
+}
+
+.selected-language p {
+    color: white;
+    align-self: center;
+    font-family: "Merriweather Sans";
+}
+
+.selected-language {
+    position: relative;
+    margin-bottom: 1px;
+    width: 60px;
+}
+
+.wrapper-languages {
+    position: absolute;
+}
+
+.selected-language a {
+    text-decoration: none;
+    color: white;
+}
+ 
+.controls-container .cart {
+    margin-right: 40px;
+   
+}
+
+.controls-container {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.currency {
+    margin-right: 100px;
+    align-items: center;
+}
+
+.middle-bar .flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: white;
+}
+
+.middle-bar a {
+    text-decoration: none;
+    color: gray;
+}
+
+.middle-bar .login-container img {
+    margin-right: 15px;
+}
+
+.middle-bar .logo-container {
+    margin-left: 70px;
+    ;
+}
+
+.middle-bar .search-container {
+   margin-right: 70px;
+   margin-left: 100px;
+   border: 1px;
+   border-color: gray;
+   border-style: solid;
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.64);
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border: 0px;
+    padding: 5px;
+}
+
+.search-container img {
+    align-items: center;
+}
+
+hr {
+    margin-bottom: 40px;
+}
+
+.bottom-bar {
+    background-color: white;
+    
+}
+
+.catalogue-text h6 {
+    font-weight: 300;
+    font-size: 20px;
+    font-family: "Merriweather Sans";
+    
+    
+}
+.catalogue-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.catalogue-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hr2 {
+    margin-top: 40px;
+}
